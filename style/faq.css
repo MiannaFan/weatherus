@@ -1,0 +1,63 @@
+.upSection {
+  background: #244f67;
+}
+
+.upSection .price {
+  padding-bottom: 60px;
+}
+
+.upSection .price .priceMain h2 {
+  font-weight: 500;
+  letter-spacing: 0;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.upSection .price .priceMain h3 {
+  line-height: 22px;
+  font-size: 15px;
+  max-width: 550px;
+  margin: 0 auto;
+  font-weight: 100;
+}
+
+.questionSection {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 80px 9.375rem;
+}
+
+.questionSection .questionTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #949494;
+  margin-top: 1.875rem;
+}
+
+.questionSection .questionList {
+  width: 100%;
+}
+
+.questionSection .questionList .question {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dedee1;
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+}
+
+.questionSection .questionList .question span {
+  color: #aaadb1;
+}
+
+.questionSection .questionList .answer {
+  background: #ebeff4;
+  padding: 20px 15px;
+  line-height: 23px;
+  display: none;
+}
+
+.questionSection .questionList .answer a {
+  text-decoration: underline;
+  color: #2e67a8;
+}

@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.upSection {
+  background: url(./img/mountains.svg), linear-gradient(#1f4e69 0, #164058 100%);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  max-width: 1170px;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo img {
+  width: 202px;
+  height: 28px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.navbar a {
+  margin: 16px 15px 19px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  color: white;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.status a::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 25px;
+  display: inline-block;
+  background-color: #47c652;
+  position: relative;
+  top: 1px;
+  left: -6px;
+  margin-left: 4px;
+}
+
+.login {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+.signUp {
+  background-color: #f47b21;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.price {
+  padding-top: 50px;
+  padding-bottom: 210px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.priceMain {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.priceMain h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.cycle {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.monthly {
+  border-radius: 5px;
+  background-color: #15394c;
+  padding: 10px 20px;
+}
+
+.Yearly {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  position: relative;
+}
+
+.Yearly::after {
+  position: absolute;
+  right: -15px;
+  top: -16px;
+  background: #8a9bae;
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 8px 4px 8px;
+  border-radius: 3px;
+  content: "20% Discount";
+  font-weight: 600;
+}
+
+.pricingMain {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.pricingUp {
+  border-radius: 5px;
+  padding-bottom: 10px;
+  background: #ebeff4;
+  text-align: center;
+  height: 300px;
+}
+
+.pricingMain li {
+  display: inline-block;
+  width: 211px;
+}
+
+.pricingUpHead {
+  padding: 35px 0 15px;
+  font-size: 18px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.prcingUl {
+  margin-top: -130px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricingUp p {
+  padding: 15px 15px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.pricingMonth {
+  margin-bottom: 40px;
+  padding-top: 10px;
+}
+
+.pricingMonth span {
+  font-size: 20px;
+  font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial,
+    sans-serif;
+  font-weight: 600;
+  margin-right: 2px;
+}
+
+.pricingUp {
+  position: relative;
+}
+
+.pricingUp a {
+  position: absolute;
+  color: #848484;
+  background: #dde1e7;
+  border-radius: 3px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  width: 90%;
+  display: inline-block;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
+
+.pricingUp a:hover {
+  text-decoration: underline;
+}
+
+.feature {
+  margin-top: 25px;
+  border-right: 1px solid gainsboro;
+  height: 350px;
+}
+
+.feature ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 18px;
+}
+
+.feature li {
+  padding-bottom: 13px;
+  font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.pricingMonth .algntop {
+  font-size: 14px !important;
+  vertical-align: top;
+}
+
+.pricingMonth .PricingYear {
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 5px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.pricingUpThird {
+  position: relative;
+}
+
+.pricingUpThird .pricingUp {
+  background-color: white;
+}
+
+.pricingUpThird .pricingUpHead::before {
+  display: block;
+  position: absolute;
+  top: -36px;
+  width: 100%;
+  height: 30px;
+  color: #fff;
+  font-size: 12px;
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  padding-top: 12px;
+  content: "Most Popular";
+  background: #15394c;
+  z-index: 1;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.pricingUpThird a {
+  background: #15394c;
+  color: #fff;
+}
+
+.pricingFive,
+.pricingFive .pricingUp {
+  background: #15394c;
+  color: white;
+  border-radius: 3px;
+}
+
+.pricingFive .PricingYear {
+  color: white;
+}
+
+.pricingFive a {
+  background-color: #f47b21;
+  color: white;
+}
+
+.pricingFirst .pricingMonth {
+  padding-top: 50px;
+}
+
+.pricingFive .pricingMonth {
+  padding-top: 30px;
+}
+.company {
+  padding: 40px 0;
+
+  width: 100%;
+  /* height: 135px; */
+}
+.companyMain {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.companyMain ul li:first-child {
+  font-weight: 800;
+  font-size: 15px;
+  background: 0 0;
+  width: 185px;
+  top: 17px;
+  text-align: left;
+}
+
+.companyMain ul {
+  display: flex;
+  text-align: center;
+}
+
+.companyMain ul li {
+  font-family: Promo, Helvetica, Arial, sans-serif;
+  display: inline-block;
+  width: 187px;
+  height: 50px;
+  position: relative;
+  color: black;
+}
+
+.Deloitte {
+  background: url(./img/client_deloitte.svg);
+  background-size: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 4px;
+}
+
+.microsoft {
+  background: url(./img/client_microsoft.svg);
+  background-size: 135px;
+  background-position: center;
+  background-repeat: no-repeat;
+  left: 15px;
+}
+
+.warnerbros {
+  background: url(./img/client_warnerbros.svg);
+  background-size: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 110px;
+}
+
+.wawa {
+  background: url(./img/client_wawa.svg);
+  background-size: 85px;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: -4px;
+  width: 132px;
+  left: -20px;
+}
+
+.schneider {
+  background: url(./img/client_schneider.svg);
+  background-size: 125px;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 4px;
+}
+
+.ericsson {
+  background: url(./img/client_ericsson_2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 112px;
+  top: -1px;
+}
+.signUpDown {
+  width: 100%;
+  background-color: #eef2f5;
+  text-align: center;
+}
+
+.signUpDownMain {
+  padding: 50px 0;
+}
+
+.signUpDown span {
+  color: rgb(3, 2, 2);
+  font-weight: bold;
+  padding-right: 1.25rem;
+}
+
+.signUpDown a {
+  background-color: #f47b21;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+}
+
+.signUpDown a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  padding-bottom: 40px;
+  background: #184157;
+  color: white;
+  padding-top: 40px;
+}
+
+.contact {
+  max-width: 1170px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 100px;
+}
+
+.contactSocial .social {
+  padding: 15px 0;
+}
+
+.social a {
+  padding-left: 5px;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+.contact ul li a {
+  color: white;
+}
+
+.contact li a:hover {
+  text-decoration: underline;
+}
+
+.contact li:first-child {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.contact li {
+  padding-top: 10px;
+  font-weight: 400;
+  font-family: "Open Sans", "Gill Sans MT", "Gill Sans", Corbel, Arial,
+    sans-serif;
+}
+
+.contact li:nth-child(2) {
+  padding-top: 20px;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 40px;
+}
+.copyrightMain a {
+  color: white;
+}
+.copyrightMain a:hover {
+  text-decoration: underline;
+}
+
+.copyright span a {
+  text-decoration: underline;
+  color: white;
+}
+
+.copyright span {
+  font-size: 12px;
+}
